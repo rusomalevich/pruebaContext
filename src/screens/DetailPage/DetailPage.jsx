@@ -26,11 +26,9 @@ const DetailPage = () => {
                 <button>+</button>
             </div>
             :
-            <div>
-
-            </div>
+          <div><button onClick={() => addProductCart(productDetail.id)}>Comprar</button></div>
         }
-        <div><button onClick={()=> addProductCart(productDetail.id)}>Comprar</button></div>
+        
       </div>
   )
 }
